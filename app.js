@@ -230,6 +230,13 @@ function initApp(cards) {
     if (e.code === "ArrowLeft") playPrev();
   });
 
+  // Blur search input when tapping outside
+  document.addEventListener("click", (e) => {
+    if (e.target !== searchInput && !searchInput.contains(e.target)) {
+      searchInput.blur();
+    }
+  });
+
   // Initial render
   renderCards();
 }

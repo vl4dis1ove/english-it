@@ -144,7 +144,7 @@ body::before {
   border-radius: var(--radius);
   color: var(--text-bright);
   font-family: "DM Sans", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   outline: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   text-overflow: ellipsis;
