@@ -168,6 +168,7 @@ function initApp(cards) {
       return;
     }
     const card = cards[currentIndex];
+    nowPlaying.style.visibility = "";
     nowPlaying.classList.add("visible");
     npNum.textContent = "#" + card.num;
     npWord.textContent = card.word;
